@@ -1,0 +1,25 @@
+{
+  "name": "factory-pattern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc src/factory/client.ts --outDir './build'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanguyen-ekoios/factory-pattern.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanguyen-ekoios/factory-pattern/issues"
+  },
+  "homepage": "https://github.com/sanguyen-ekoios/factory-pattern#readme",
+  "dependencies": {
+    "@types/node": "^18.7.10",
+    "ts-lib": "0.0.5",
+    "ts-node": "^10.9.1"
+  }
+}
